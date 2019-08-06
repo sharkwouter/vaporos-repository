@@ -3,6 +3,6 @@ Label: VaporOS Buster repository
 Codename: buster
 Suite: stable
 Components: main
-Architectures: amd64
+Architectures: i386 amd64 source
 Description: Apt repository for a Debian Buster based SteamOS clone called VaporOS Buster
 SignWith: 71E0E83E20A09F10
