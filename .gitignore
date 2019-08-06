@@ -1,5 +1,4 @@
 signing.key
-vaporos-archive-keyring.gpg
 repo/db
 repo/pool
 repo/dists
