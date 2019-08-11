@@ -6,3 +6,12 @@ Components: main
 Architectures: i386 amd64 source
 Description: Apt repository for a Debian Buster based SteamOS clone called VaporOS Buster
 SignWith: 71E0E83E20A09F10
+
+Origin: VaporOS
+Label: VaporOS Brewmaster repository
+Codename: brewmaster
+Suite: stable
+Components: main contrib non-free
+Architectures: i386 amd64 source
+Description: Repository for SteamOS Brewmaster
+SignWith: 71E0E83E20A09F10

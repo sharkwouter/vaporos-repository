@@ -2,14 +2,17 @@
 cd "$(dirname "$0")"
 
 WORKDIR="${PWD}"
-PACKAGEDIR="${PWD}/packages"
 REPODIR="${PWD}/repo"
-DISTNAME="buster"
+DISTS="buster brewmaster"
 
-#add deb packages
-reprepro -Vb ${REPODIR} includedeb ${DISTNAME} ${PACKAGEDIR}/*.deb
+# Add packages for each configured distribution to the repo
+for dist in ${DISTS}; do
+PACKAGEDIR="${PWD}/packages-${dist}"
+	#add deb packages
+	reprepro -Vb ${REPODIR} includedeb ${dist} ${PACKAGEDIR}/*.deb
 
-#include source files
-for dsc in `ls ${PACKAGEDIR}/*.dsc`; do
-	reprepro -Vb ${REPODIR} includedsc ${DISTNAME} ${dsc}
+	#include source files
+	for dsc in `ls ${PACKAGEDIR}/*.dsc`; do
+		reprepro -Vb ${REPODIR} includedsc ${dist} ${dsc}
+	done
 done
