@@ -15,3 +15,12 @@ Components: main contrib non-free
 Architectures: i386 amd64 source
 Description: Repository for SteamOS Brewmaster
 SignWith: 71E0E83E20A09F10
+
+Origin: VaporOS
+Label: VaporOS Brewmaster repository
+Codename: brewmaster-testing
+Suite: stable
+Components: main contrib non-free
+Architectures: i386 amd64 source
+Description: Repository used for testing new packages for SteamOS Brewmaster
+SignWith: 71E0E83E20A09F10
