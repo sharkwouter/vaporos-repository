@@ -16,3 +16,5 @@ PACKAGEDIR="${PWD}/packages-${dist}"
 		reprepro -Vb ${REPODIR} includedsc ${dist} ${dsc}
 	done
 done
+
+${PWD}/update-testing-repo.sh
