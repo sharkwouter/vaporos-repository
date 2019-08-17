@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 17 Aug 2019 16:26:40 +0000
+Source: steamos-compositor
+Binary: steamos-compositor
+Architecture: source amd64
+Version: 1.35+vos1
+Distribution: brewmaster
+Urgency: medium
+Maintainer: Pierre-Loup Griffais <pgriffais@valvesoftware.com>
+Changed-By: Wouter Wijsman <wwijsman@live.nl>
+Description:
+ steamos-compositor - SteamOS Compositor
+Changes:
+ steamos-compositor (1.35+vos1) brewmaster; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Applied patch to fix some applications starting in the background
+Checksums-Sha1:
+ e4063847b63a94fdc347ff9bbba2c707cd85cef1 771 steamos-compositor_1.35+vos1.dsc
+ 02e0cf844a4935dbff14e74fedf096e7c2dc489b 150996 steamos-compositor_1.35+vos1.tar.xz
+ 78ce834d9f771850df3ae9069f786d7f042bc0f8 28672 steamos-compositor_1.35+vos1_amd64.deb
+Checksums-Sha256:
+ aab95df383184e62454b8a2cf1141e880f37ac577c734536cfae42b2f46c9791 771 steamos-compositor_1.35+vos1.dsc
+ 3f5448daf97dabf4542ea9c5d9b94fdee5bc8b985ac238275b6a864c81df6248 150996 steamos-compositor_1.35+vos1.tar.xz
+ c8701a69086e9b52ea79d93cd291b6e300dad1a7996d533ea22363778525176a 28672 steamos-compositor_1.35+vos1_amd64.deb
+Files:
+ 19ef3208307f83d390e221b1a7cbfa1a 771 misc optional steamos-compositor_1.35+vos1.dsc
+ 4c409caee967d2df09ef818ca83700db 150996 misc optional steamos-compositor_1.35+vos1.tar.xz
+ 9b8c9fae41804e5df602ef41ab24d127 28672 misc optional steamos-compositor_1.35+vos1_amd64.deb
