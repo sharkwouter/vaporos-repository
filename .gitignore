@@ -2,3 +2,6 @@ signing.key
 repo/db
 repo/pool
 repo/dists
+repo-testing/db
+repo-testing/pool
+repo-testing/dists

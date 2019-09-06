@@ -1,0 +1,8 @@
+Origin: VaporOS
+Label: VaporOS Brewmaster repository
+Codename: brewmaster
+Suite: stable
+Components: main contrib non-free
+Architectures: i386 amd64 source
+Description: Testing repository for SteamOS Brewmaster
+SignWith: 71E0E83E20A09F10
